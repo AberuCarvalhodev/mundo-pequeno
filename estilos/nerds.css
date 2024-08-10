@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* fontes */
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+
+
+/* variaveis */
+:root{
+    --cor0: #F3E5F5;
+    --cor1: #CE93D8;
+    --cor2: #AB47BC;
+    --cor3: #8E24AA;
+    --cor4: #6A1B9A;
+    
+      
+    --fonte-geral: Arial, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-pricipal: 'Limelight', sans-serif;
+  
+}
+body {
+    background-color: var(--cor1);
+}
+
+.img-not {
+    width:100px;
+    height: 100px;
+    display: inline-block;
+}

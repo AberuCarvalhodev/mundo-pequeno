@@ -48,16 +48,14 @@ header a {
     padding: 10px;
     text-decoration: none;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.456);
-    transition-duration: .4;
+    transition-duration: .5s;
     border-radius: 5px;
 
 }
 
 header a:hover {
     text-decoration: underline;
-    
     background-color: var(--cor2);
-
 }
 
 nav {
@@ -65,13 +63,13 @@ nav {
 }
 
 main {
-    height: 95vh;
+    height: 74vh;
     background-color: var(--cor4);
     background-image: url('../imagens/logo.png');
-    background-size: 100%;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 20px;
+    padding: 10px;
     margin: auto;
     min-width: 300px;
     max-width: 900px;  

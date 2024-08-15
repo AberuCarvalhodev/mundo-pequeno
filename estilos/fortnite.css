@@ -8,9 +8,17 @@
 }
 
 body {
+    background-color: lightblue;
     width: 100%;
     min-height: 100vh;
+}
 
+a{
+    text-decoration: none;
+    color: white;
+}
+a::after {
+    content: '\00A0\1F9F7';
 }
 
 section {
@@ -28,23 +36,32 @@ section {
 
 .background video {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
     object-position: center;
 }
 
-div.box {
+section div.box {
     width: 50%;
+    height: 100vh;
     position: relative;
     z-index: 1;
-    display: flex;
-    background: linear-gradient(to right, (0, 0, 0, 0.0) transparent);
-    align-items: center;
-    justify-content: center;
     padding: 2%;
+
 }
 
+div.conteudo {
+    
+    padding: 2%;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.405), transparent); 
+    position: absolute;
+    
+    top: 32%;
+}
 .conteudo img {
-    width: 80%;
-    min-width: 300px;
+    min-width: 200px;
+    max-width: 400px;
 }

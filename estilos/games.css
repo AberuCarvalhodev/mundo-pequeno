@@ -26,6 +26,7 @@
     --cor2: #AB47BC;
     --cor3: #8E24AA;
     --cor4: #6A1B9A;
+    --cor5: #ffae05;
     
       
     --fonte-geral: Arial, helvetica, sans-serif;
@@ -39,10 +40,68 @@ a.externo::after {
     content: '\1F9F7';
 }
 
+body {
+    background-color: lightgrey;
+}
+
+header {
+    height: 90px;
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to bottom,#8E24AA,  #6A1B9A);
+    color: white;  
+}
+
+header h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 2.5em;
+}
+
+header p {
+    padding: 10px;
+    font-size: 1em;
+}
+
+nav {
+    background-color: var(--cor4);
+    height: 30px;
+    padding: 5px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: var(--cor3);
+    color: var(--cor0);
+}
+
+
 
 main {
     max-width: 800px;
     margin: auto;
+    background-color: var(--cor0);
+    padding: 10px;
+
+}
+main h1{
+    font-family: var(--fonte-destaque);
+    font-weight: bolder;
+    padding: 5px;
+}
+
+main p {
+    text-align: justify;
+    font-size: 18px;
+    font-family: var(--fonte-geral);
+    line-height: 1.3em;
+    text-indent: 30px;
+    padding: 5px;
 
 }
 

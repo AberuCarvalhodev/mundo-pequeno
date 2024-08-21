@@ -39,8 +39,15 @@
 a.externo::after {
     content: '\1F9F7';
 }
+.topo::after {
+    content: '\1F51D';
+}
+.voltar::after {
+    content: '\00A0\1F519';
+}
 
 body {
+    height: 96vh;
     background-color: lightgrey;
 }
 
@@ -81,7 +88,7 @@ nav a:hover {
 }
 
 main {
-    max-width: 800px;
+    max-width: 700px;
     margin: auto;
     background-color: var(--cor0);
     padding: 10px;
@@ -89,7 +96,7 @@ main {
     border-bottom-right-radius: 5px;
 }
 aside.video {
-    width: 700px;
+    max-width: 96%;
     height: 200px;
     background-color: var(--cor0);
     position: relative;
@@ -115,6 +122,24 @@ main p {
     margin: 10px 0px 10px 0px;
     line-height: 1.4em;
     font-family: var(--fonte-principal);
+}
+
+section.fechamento {
+    text-align: center;
+}
+
+.topo {
+    padding-top: 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.voltar {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
 
 footer {

@@ -7,6 +7,10 @@
     box-sizing: border-box;
     
 }
+@font-face {
+    font-family: "Falcons";
+    src: url(../fontes/FalconsFont.ttf) format(truetype);
+}
 :root {
     --cor1: #f3e5f5;
     --cor2: #ce03d8;
@@ -14,20 +18,23 @@
     --cor4: #8e24aa;
     --cor5: #6a1b9a;
 
+    --fonte-destaque: "Falcons";
 
 }
 body {
 
-    background-color: var(--cor4);
+    background-color: var(--cor5);
 }
 
 header {
     text-align: center;
+    background-image: linear-gradient(to top, #6a1b9a,  #8e24aa );
 }
 header  h1 {
     color: var(--cor1);
     text-align: center;
     padding: 30px;
+    font-family: var(--fonte-destaque);
 }
 
 #menu-item {

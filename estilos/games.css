@@ -41,8 +41,10 @@ a.externo::after {
 }
 
 body {
-    background-color: lightgrey;
+    background-color: var(--cor4);
 }
+
+
 
 header {
     height: 90px;
@@ -60,6 +62,12 @@ header h1 {
 header p {
     padding: 10px;
     font-size: 1em;
+}
+
+#menu-item {
+    color: var(--cor0);
+    cursor: pointer;
+    
 }
 
 nav {

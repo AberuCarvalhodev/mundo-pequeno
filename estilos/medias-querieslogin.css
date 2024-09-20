@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/*
+cores
+azul h2o: #358896
+verde: #49a99d
+lilás: #5f2c82
+
+
+
+
+**** typical device BreackPoints ****
+pequenas até 600px
+celulares 600px à 768px
+tablets 768px à 992px
+Desktop 992px à 1200px
+grandes acima de 1200px
+
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body, html {
+    background-image: linear-gradient(to top, #a862d6,  #358896);
+    }
+    section#login{
+        width: 95vw;
+        height: 300px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: left;
+        width: 65%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    body, html {
+        background-image: linear-gradient(to top, #a862d6,  #358896);
+    }
+
+    section#login {
+        width: 995px;
+        height: 350px;
+    }
+    section#login >div#imagem {
+        width: 50%;
+        float: right;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        width: 50%;
+        float: right;
+    }
+
+   
+    div#formulario > h1 {
+        
+        font-size: 2em;
+    }
+    div#formulario > p {
+        font-size: 1.5em;
+    }
+}
